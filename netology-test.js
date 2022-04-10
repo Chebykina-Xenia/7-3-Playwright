@@ -10,7 +10,8 @@ const{chromium} = require('playwright');
     const page = await browser.newPage();
     //переходим на веб-сайт
     await page.goto("https://netology.ru/?modal=sign_in");
-    await page.waitForNavigation({ waitUntil: 'documentloaded' })    //закрываем браузер
+    await page.waitForNavigation({ waitUntil: 'documentloaded' })    
+    //закрываем браузер
     await browser.close();
 
 })()
