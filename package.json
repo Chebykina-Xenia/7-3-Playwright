@@ -1,0 +1,14 @@
+{
+  "name": "first-project-playwright",
+  "version": "1.0.0",
+  "description": "My ferst progect playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chebykina-Xenia",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.20.2"
+  }
+}
