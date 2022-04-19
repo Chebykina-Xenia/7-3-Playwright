@@ -4,11 +4,14 @@
   "description": "My ferst progect playwright",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "playwright"
   },
   "author": "Chebykina-Xenia",
   "license": "ISC",
   "devDependencies": {
+    "@playwright/test": "^1.21.1",
+    "chai": "^4.3.6",
+    "jest": "^27.5.1",
     "playwright": "^1.20.2"
   }
 }
